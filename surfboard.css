@@ -81,6 +81,11 @@ html {
     font-style: normal;
     font-size: 40px !important;
 }
+@media (max-width:426px) {
+  .navbar-brand{
+    font-size: 30px !important;
+  }
+}
 .nav-link > img{
     width: 30px;
     height: 30px;
@@ -108,15 +113,19 @@ html {
     margin-left: 10%;
 }
 
+
 /* sub-page */
 .surboards-page{
   padding-top: 100px;
 
 }
-@media (max-width:500px) {
+@media (max-width:426px) {
   .row>*{
     width: 87% !important;
   }
+  .navbar-brand{
+    margin-left: 0%;
+}
 }
 .surboards-heading {
   text-align: center;

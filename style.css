@@ -119,6 +119,11 @@ html {
 .navbar-brand{
     margin-left: 10%;
 }
+@media (max-width:426px) {
+  .navbar-brand{
+    margin-left: 0px;
+  }
+}
 
 /* home-page-contend */
 
